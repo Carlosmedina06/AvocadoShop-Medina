@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon-32x32.ico">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/4d71f82498.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--AOS animated-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--animated animacion-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Avocado Shop</title>
+
+<body>
+    <header>
+        <!-- NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="nav-logo" src="../img/Logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav animate__animated animate__fadeInLeft">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary animate__animated animate__fadeInLeft"><a class="text-white text-decoration-none"
+                            href="reserva.html">Reserva</a></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Title Reserva-->
+        <section class="title container text-center" data-aos="fade-up">
+            <article class="row">
+                <div class="col-12">
+                    <h1 class="title__text m-5 py-3 px-5">Formulario de Reserva</h1>
+                </div>
+            </article>
+        </section>
+        <!--Form Reserva-->
+        <section class="form container" data-aos="fade-up">
+            <article class="row">
+                <div class="col-12">
+                    <form class="form__card p-4">
+                        <div class="col-12 text-start">
+                            <h4 class="fs-4">Tu Reservacion</h4>
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="ejemplo@mail.com">
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="telefono" class="form-label">Telefono</label>
+                                <input type="tel" class="form-control" id="telefono" placeholder="Tu telefono">
+                            </div>
+                            <div class="col-12 col-md-6 mb-2">
+                                <p class="form-label">cantidad de personas?</p>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 mb-2">
+                                <label class="form-label" for="date">Fecha</label>
+                                <input class="form-control" type="date" id="date" name="date">
+                            </div>
+                            <div class="col-12 col-md-6 mb-2">
+                                <label class="form-label" for="time">Hora:</label>
+                                <input class="form-control" type="time" id="time" name="time">
+                            </div>
+                            <div class="col-12 col-md-6 mb-2">
+                                <p class="form-label">Tipo de Mesa?</p>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>adentro</option>
+                                    <option value="1">afuera</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6 mb-2">
+                                <p class="form-label">Alguna preferencia?</p>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>No</option>
+                                    <option value="1">Si</option>>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="textarea" class="form-label">Diganos cual?</label>
+                                <textarea class="form-control text-area" id="textarea" placeholder="Tu mensaje aca"
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer container-fluid text-center text-white" data-aos="fade-up">
+        <!-- Section: Links -->
+        <section class=" mt-5">
+            <div class="row text-center justify-content-center pt-5">
+                <div class="col-md-2">
+                    <p class="text-uppercase font-weight-bold">
+                        <a href="../index.html" class="footer__link text-white">Inicio</a>
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-uppercase font-weight-bold">
+                        <a href="nosotros.html" class="footer__link text-white">Sobre Nosotros</a>
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-uppercase font-weight-bold">
+                        <a href="productos.html" class="footer__link text-white">Productos</a>
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-uppercase font-weight-bold">
+                        <a href="contacto.html" class="footer__link text-white">Contacto</a>
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <p class="text-uppercase font-weight-bold">
+                        <a href="reserva.html" class="footer__link text-white">Reservar</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr class="my-5" />
+        <!-- Section Social -->
+        <section class="text-center mb-5">
+            <a href="https://www.facebook.com/" class="footer__link text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/" class="footer__link text-white me-4">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.whatsapp.com/?lang=es" class="footer__link text-white me-4">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="footer__link text-white me-4">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </section>
+        </div>
+        <div class="text-center p-3">
+            <p class="footer__copy">© 2022 Copyright: Avocado Shop.</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!--js bootstrap-->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <!--AOS Script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
