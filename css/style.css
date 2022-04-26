@@ -21,10 +21,29 @@
 }
 
 /* boton */
-.btn-primary {
-    background-color: #F28705 !important;
-    border: #F28705 !important;
+
+.btn-principal {
+    padding: 1.3em 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: #F28705;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
 }
+
+.btn-principal:hover {
+    background-color: hsl(25, 96%, 48%);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
 
 /* Home Page */
 .principal__img {
@@ -55,11 +74,17 @@
 
 .experience__card {
     background: rgb(255, 255, 255);
-    border-radius: 5px;
     border: 1px solid rgba(0, 0, 255, .2);
     transition: all .2s;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
+
+.experience__card:hover,
+.testimonial__card:hover,
+.trending__card:hover,
+.products__card:hover {
+    box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);
+   }
 
 .experience__text {
     font-style: normal;
@@ -87,7 +112,6 @@
 
 .testimonial__card {
     background: rgb(255, 255, 255);
-    border-radius: 5px;
     border: 1px solid rgba(0, 0, 255, .2);
     transition: all .2s;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
@@ -196,7 +220,6 @@
 .trending__card,
 .products__card {
     background: rgb(255, 255, 255);
-    border-radius: 5px;
     border: 1px solid rgba(0, 0, 255, .2);
     transition: all .2s;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
@@ -239,7 +262,6 @@
     font-size: 24px;
     line-height: 35px;
     color: #0D0D0D;
-    border-radius: 5px;
     border: 1px solid rgba(0, 0, 255, .2);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
@@ -252,9 +274,19 @@
     color: #0D0D0D;
 }
 
+.form-control {
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 0px 2px 6px rgb(19 18 66 / 7%);
+    border-radius: 10px;
+}
+
+.form-control:hover {
+    border: solid 2px #F28705;
+}
+
 .form__card {
     background: rgb(255, 255, 255);
-    border-radius: 5px;
     border: 1px solid rgba(0, 0, 255, .2);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
@@ -264,7 +296,6 @@
 }
 
 .map {
-    border-radius: 5px;
     border: 1px solid rgba(0, 0, 255, .2);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
@@ -279,6 +310,8 @@
     font-size: 14px;
     line-height: 20px;
 }
+
+
 
 @media screen and (min-width:1024px) {
     .principal__img {
