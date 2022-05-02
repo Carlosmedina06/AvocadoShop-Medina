@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/favicon-32x32.ico">
-    <!--FontAwesome-->
-    <script src="https://kit.fontawesome.com/4d71f82498.js" crossorigin="anonymous"></script>
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!--CSS-->
-    <link rel="stylesheet" href="../css/style.css">
-    <!--AOS animated-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!--animated animacion-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>Avocado Shop</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../img/favicon-32x32.ico">
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/4d71f82498.js" crossorigin="anonymous"></script>
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--CSS-->
+        <link rel="stylesheet" href="../css/main.css">
+        <title>Avocado Shop</title>
+    </head>
 
 <body>
     <header>
         <!-- NavBar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img class="nav-logo" src="../img/Logo.png" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -36,21 +33,20 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav animate__animated animate__fadeInLeft">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio</a>
-                        </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+                            <a class="nav-link"  href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="productos.html">Productos</a>
+                            <a class="nav-link" href="./nosotros.html">Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="./products.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
-                    <button type="button" class="btn btn-principal animate__animated animate__fadeInLeft"><a
-                            class="text-white text-decoration-none" href="reserva.html">Reserva</a></button>
+                    <button type="button" class="btn-principal"><a href="./reserva.html">Reserva</a></button>
                 </div>
             </div>
         </nav>
@@ -60,65 +56,68 @@
         <section class="title container text-center" data-aos="fade-up">
             <article class="row">
                 <div class="col-12">
-                    <h1 class="title__text m-5 py-3 px-5">Formulario de Contacto</h1>
+                    <h1>Formulario de Contacto</h1>
                 </div>
-                <div class="col-12">
-                    <h4 class="title__phrase">Lorem, ipsum dolor.</h4>
-                    <p class="title__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
+                <div class="col-12 my-4">
+                    <h4>Lorem, ipsum dolor.</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium,
                         culpa!</p>
                 </div>
             </article>
         </section>
+        <!--Title Contact-->
+        <!--Form Section-->
         <!--Form contact-->
         <section class="form container" data-aos="fade-up">
             <article class="row">
                 <div class="col-12 col-lg-6">
-                    <form class="form__card p-4">
+                    <form class="formulario">
                         <div class="col-12 text-start">
-                            <h4 class="fs-4">Datos del contacto</h4>
+                            <h4>Datos del contacto</h4>
                             <p>Por favor dejanos tus datos para poder contactarnos con ud.</p>
                             <hr>
                         </div>
                         <div class="mb-3">
                             <label for="name" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                            <input type="text" class="input" id="name" placeholder="Tu nombre">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="ejemplo@mail.com">
+                            <input type="email" class="input" id="email" placeholder="ejemplo@mail.com">
                         </div>
                         <div class="mb-3">
                             <label for="telefono" class="form-label">Telefono</label>
-                            <input type="tel" class="form-control" id="telefono" placeholder="Tu telefono">
+                            <input type="tel" class="input" id="telefono" placeholder="Tu telefono">
                         </div>
                         <div class="mb-3">
                             <label for="textarea" class="form-label">Dejanos tu mensaje</label>
-                            <textarea class="form-control text-area" id="textarea" placeholder="Tu mensaje aca"
+                            <textarea class="input text-area" id="textarea" placeholder="Tu mensaje aca"
                                 rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-principal text-white">Enviar</button>
+                        <button type="submit" class="btn-principal">Enviar</button>
                     </form>
                 </div>
+                <!--Form Section-->
+                <!--map section-->
                 <div class="col-12 col-lg-6 my-5 text-center">
-                    <!--map section-->
                     <div class="map row mx-4" data-aos="fade-up">
                         <div class="col-12 my-3">
-                            <div class="map__icon m-2">
+                            <div class="m-2">
                                 <i class="fas fa-envelope"></i>
                             </div>
-                            <p class="map__title p-2">contacto@correo.com</p>
+                            <p>contacto@correo.com</p>
                         </div>
                         <div class="col-12">
-                            <div class="map__icon m-2">
+                            <div class="m-2">
                                 <i class="fas fa-phone"></i>
                             </div>
-                            <p class="map__title p-2">(+54) 55-5444-5777 <br> (+54) 55-5444-5667 </p>
+                            <p>(+54) 55-5444-5777 <br> (+54) 55-5444-5667 </p>
                         </div>
                         <div class="col-12">
-                            <div class="map__icon m-2">
+                            <div class="m-2">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <p class="map__title p-2">Pierina Dealessi 1330, CABA</p>
+                            <p>Pierina Dealessi 1330, CABA</p>
                         </div>
                         <div class="col-12 my-5"><iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6634429310257!2d-58.3656895851949!3d-34.61267106547796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d62e78d5bf%3A0xf5a420c56c5fb2d9!2sPierina%20Dealessi%201330%2C%20C1107%20CABA!5e0!3m2!1ses!2sar!4v1649957469498!5m2!1ses!2sar"
@@ -128,69 +127,59 @@
                     </div>
             </article>
         </section>
+        <!--map section-->
+        <!--Form contact-->
     </main>
-    <!-- Footer -->
-    <footer class="footer container-fluid text-center text-white" data-aos="fade-up">
-        <!-- Section: Links -->
-        <section class=" mt-5">
+    <!--Footer Section-->
+    <footer class="footer container-fluid" data-aos="fade-up">
+        <!--section links-->
+        <section>
             <div class="row text-center justify-content-center pt-5">
-                <div class="col-md-2">
-                    <p class="text-uppercase font-weight-bold">
-                        <a href="../index.html" class="footer__link text-white">Inicio</a>
-                    </p>
+                <div class="col-lg-2">
+                    <a href="../index.html">Inicio</a>
                 </div>
                 <div class="col-lg-2">
-                    <p class="text-uppercase font-weight-bold">
-                        <a href="nosotros.html" class="footer__link text-white">Sobre Nosotros</a>
-                    </p>
+                    <a href="./nosotros.html">Nosotros</a>
                 </div>
                 <div class="col-lg-2">
-                    <p class="text-uppercase font-weight-bold">
-                        <a href="productos.html" class="footer__link text-white">Productos</a>
-                    </p>
+                    <a href="./products.html">Productos</a>
                 </div>
                 <div class="col-lg-2">
-                    <p class="text-uppercase font-weight-bold">
-                        <a href="contacto.html" class="footer__link text-white">Contacto</a>
-                    </p>
+                    <a href="./contacto.html">Contacto</a>
                 </div>
                 <div class="col-lg-2">
-                    <p class="text-uppercase font-weight-bold">
-                        <a href="reserva.html" class="footer__link text-white">Reservar</a>
-                    </p>
+                    <a href="./reserva.html">Reservar</a>
                 </div>
             </div>
         </section>
-        <hr class="my-5" />
-        <!-- Section Social -->
-        <section class="text-center mb-5">
-            <a href="https://www.facebook.com/" class="footer__link text-white me-4">
+        <!--section links-->
+        <hr>
+        <!--section redes-->
+        <section class="footer__redes text-center my-5">
+            <a href="https://www.facebook.com/">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://twitter.com/" class="footer__link text-white me-4">
+            <a href="https://twitter.com/">
                 <i class="fab fa-twitter"></i>
             </a>
-            <a href="https://www.whatsapp.com/?lang=es" class="footer__link text-white me-4">
+            <a href="https://www.whatsapp.com/?lang=es">
                 <i class="fab fa-whatsapp"></i>
             </a>
-            <a href="https://www.instagram.com/" class="footer__link text-white me-4">
+            <a href="https://www.instagram.com/">
                 <i class="fab fa-instagram"></i>
             </a>
         </section>
+        <!--section links-->
+        <!-- ection copy-->
+        <div class="footer__copy text-center p-3">
+            <p>© 2022 Copyright: Avocado Shop.</p>
         </div>
-        <div class="text-center p-3">
-            <p class="footer__copy">© 2022 Copyright: Avocado Shop.</p>
-        </div>
-        <!-- Copyright -->
+        <!-- section copy -->
     </footer>
+    <!--Footer Section-->
     <!--js bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    <!--AOS Script-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
     </script>
 </body>
 

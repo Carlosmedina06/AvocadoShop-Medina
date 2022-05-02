@@ -1,0 +1,34 @@
+//Base
+// Resets
+@import "./base/reset";
+// Fonts
+@import "./base/typo";
+
+//Layout
+//navbar
+@import "./layout/nav";
+// footer
+@import "./layout/footer";
+
+//views
+//index
+@import "./views/index";
+//nosotros
+@import "./views/nosotros";
+//Productos
+@import "./views/products";
+//Contact
+@import "./views/contacto";
+//Reserva
+@import "./views/reserva";
+
+
+//components
+//botones
+@import "./components/botones";
+//Cards
+@import './components/card';
+//input
+@import "./components/input";
+
+

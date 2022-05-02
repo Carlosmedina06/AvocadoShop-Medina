@@ -1,0 +1,9 @@
+@import "../utilities/mixins";
+
+.btn-principal {
+    @include btn-principal
+}
+
+.btn-transparent {
+    @include btn-transparent
+}

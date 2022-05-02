@@ -1,0 +1,33 @@
+@import "../utilities/mixins";
+
+.title {
+    @include contenedor;
+    h1 {
+        @include carta;
+        max-width: 2560px;
+        padding: 20px;
+    }
+
+    p {
+        margin: 20px;
+    }
+}
+
+
+.formulario {
+    @include formulario;
+    padding: 20px;
+}
+
+.text-area {
+    resize: none;
+}
+
+.map {
+    @include carta;
+    max-width: 1000px;
+    cursor: default;
+    p{
+        @include textCard;
+    }
+}

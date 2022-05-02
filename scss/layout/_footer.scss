@@ -1,0 +1,20 @@
+@import "../utilities/variables";
+
+//footer
+.footer {
+    background-color: $colorText;
+    color: $colorBlanco;
+
+    hr {
+        border: 1px solid $colorBlanco;
+    }
+
+    a {
+        padding: 0px 20px;
+        margin: 0px auto;
+        text-align: center;
+        color: $colorBlanco;
+        text-transform: uppercase;
+    }
+
+}

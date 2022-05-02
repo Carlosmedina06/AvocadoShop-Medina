@@ -1,0 +1,10 @@
+@import "../utilities/mixins";
+
+.reserva {
+    @include contenedor;
+    width: 90%;
+
+    &.text-area {
+        border: solid 2px $colorPrimario;
+    }
+}

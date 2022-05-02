@@ -1,0 +1,35 @@
+@import "../utilities/mixins";
+
+.about {
+    @include contenedor-orange;
+    color: $colorBlanco;
+    margin-bottom: 0;
+}
+
+.banner {
+    @include banner;
+    background-image: url(../img/banneraboutus.jpg);
+    height: 300px
+}
+
+.thrid {
+    @include contenedor;
+
+    img {
+        border: 1px solid rgba(0, 0, 255, .2);
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    }
+
+    .thrid__contact {
+        background-color: $colorPrimario;
+
+        p {
+            color: $colorBlanco;
+            padding: 10px;
+            margin: 10px;
+            a {
+                color: $colorBlanco;
+            }
+        }
+    }
+}

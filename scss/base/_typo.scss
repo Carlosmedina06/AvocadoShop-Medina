@@ -1,0 +1,21 @@
+@import "../utilities/mixins";
+
+h1 {
+    @include h1-style;
+}
+
+h2 {
+    @include h2-style;
+}
+
+h4 {
+    @include h4-style;
+}
+
+h5 {
+    @include h5-style;
+}
+
+p {
+    @include p-style;
+}
