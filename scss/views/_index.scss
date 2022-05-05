@@ -1,5 +1,3 @@
-@import "../utilities/mixins";
-
 .principal {
     @include principal
 }
@@ -10,34 +8,40 @@
 
 .banner {
     @include banner;
-        background-image: url(../img/bannerprincipal.jpg)
+    background-image: url(../img/bannerprincipal.jpg)
 }
 
 .testimonial {
     @include contenedor-orange;
-        h2 {
-            color: $colorBlanco;
-            margin: 50px auto;
+
+    h2 {
+        color: color('blanco');
+        margin: 50px auto;
+    }
+
+    .carta {
+        max-width: 1000px;
+
+        h5 {
+            margin-top: 15px;
         }
-        .carta {
-            max-width: 1000px;
-            h5 {
-                margin-top: 15px;
-            }
-            p {
-                padding: 20px;
-            }
+
+        p {
+            padding: 20px;
         }
-        .avatar {
-            img{
+    }
+
+    .avatar {
+        img {
             margin-top: 20px;
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            border: solid 2px $colorBlanco;
+            border: solid 2px color('blanco');
         }
-        p{
-            color: $colorBlanco;
+
+        p {
+            color: color('blanco');
         }
     }
 }
@@ -45,9 +49,10 @@
 .social {
     @include contenedor;
     margin-top: 20px;
+
     h5 {
-        color: $colorBlanco;
-        background-color: $colorPrimario;
+        color: color('blanco');
+        background-color: color('primario');
         padding: 20px;
         text-align: center;
         margin: 50px auto;

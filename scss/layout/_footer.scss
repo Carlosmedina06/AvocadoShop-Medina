@@ -2,18 +2,18 @@
 
 //footer
 .footer {
-    background-color: $colorText;
-    color: $colorBlanco;
+    background-color: color('negro');
+    color: color('blanco');
 
     hr {
-        border: 1px solid $colorBlanco;
+        border: 1px solid color('blanco');
     }
 
     a {
         padding: 0px 20px;
         margin: 0px auto;
         text-align: center;
-        color: $colorBlanco;
+        color: color('blanco');
         text-transform: uppercase;
     }
 

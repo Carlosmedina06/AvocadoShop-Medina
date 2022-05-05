@@ -1,8 +1,6 @@
-@import "../utilities/mixins";
-
 .about {
     @include contenedor-orange;
-    color: $colorBlanco;
+    color: color('blanco');
     margin-bottom: 0;
 }
 
@@ -21,14 +19,15 @@
     }
 
     .thrid__contact {
-        background-color: $colorPrimario;
+        background-color: color('primario');
 
         p {
-            color: $colorBlanco;
+            color: color('blanco');
             padding: 10px;
             margin: 10px;
+
             a {
-                color: $colorBlanco;
+                color: color('blanco');
             }
         }
     }

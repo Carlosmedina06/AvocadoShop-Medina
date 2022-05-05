@@ -1,34 +1,41 @@
+//utilities
+//Variables
+@import "./utilities/variables",
+// Funtions
+        "./utilities/funtions",
+// Mixins
+        "./utilities/mixins";
+
+
 //Base
 // Resets
-@import "./base/reset";
+@import "./base/reset",
 // Fonts
-@import "./base/typo";
+        "./base/typo";
 
 //Layout
 //navbar
-@import "./layout/nav";
+@import "./layout/nav",
 // footer
-@import "./layout/footer";
+        "./layout/footer";
 
 //views
 //index
-@import "./views/index";
+@import "./views/index",
 //nosotros
-@import "./views/nosotros";
+        "./views/nosotros",
 //Productos
-@import "./views/products";
+        "./views/products",
 //Contact
-@import "./views/contacto";
+        "./views/contacto",
 //Reserva
-@import "./views/reserva";
+        "./views/reserva";
 
 
 //components
 //botones
-@import "./components/botones";
+@import "./components/botones",
 //Cards
-@import './components/card';
+        "./components/card",
 //input
-@import "./components/input";
-
-
+        "./components/input";
