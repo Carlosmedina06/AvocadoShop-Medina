@@ -59,7 +59,26 @@
     }
 
     img {
-        width: 250px;
-        height: auto;
+        width: $ancho + 90;
+        height: $alto + 90;
+        opacity: 0%;
+    }
+
+    @each $social in social1, social2, social3 {
+        .#{$social}-img {
+            width: $ancho * 2;
+            height: $alto * 2;
+            background-image: url('../img/#{$social}.jpg');
+            transition: all 0.3s ease;
+
+        }
+
+        & .#{$social}-img:hover {
+            background-image: url('../img/#{$social}.png');
+            width: $ancho * 2;
+            height: $alto * 2;
+            background-position: cover;
+            background-size: cover;
+        }
     }
 }
