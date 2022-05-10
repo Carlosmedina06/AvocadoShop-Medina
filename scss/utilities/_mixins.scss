@@ -7,10 +7,10 @@
     margin: 120px auto
 }
 
-@mixin banner {
+@mixin banner($altura:300px) {
     background-size: cover;
-    background-position: cover;
-    height: 250px;
+    background-position: center;
+    height: $altura;
 }
 
 @mixin contenedor-orange {

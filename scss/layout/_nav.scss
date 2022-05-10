@@ -6,4 +6,9 @@ nav {
     &.navbar-expand-lg .navbar-collapse {
         justify-content: flex-end;
     }
+
+    .nav-logo {
+        width: 200px;
+        height: 50px;
+    }
 }

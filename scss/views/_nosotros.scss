@@ -4,10 +4,9 @@
     margin-bottom: 0;
 }
 
-.banner {
-    @include banner;
+.banner2 {
+    @include banner(400px);
     background-image: url(../img/banneraboutus.jpg);
-    height: 300px
 }
 
 .thrid {

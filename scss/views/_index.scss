@@ -22,7 +22,7 @@
     .carta {
         max-width: 1000px;
 
-        h5 {
+        h3 {
             margin-top: 15px;
         }
 
@@ -50,7 +50,7 @@
     @include contenedor;
     margin-top: 20px;
 
-    h5 {
+    h4 {
         color: color('blanco');
         background-color: color('primario');
         padding: 20px;
