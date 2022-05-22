@@ -79,6 +79,10 @@ nav .nav-logo {
   width: 80%;
   margin: 120px auto;
 }
+.experience p {
+  text-align: left;
+  padding: 0 15px;
+}
 
 .banner {
   background-size: cover;
@@ -92,6 +96,7 @@ nav .nav-logo {
   height: auto;
   margin: 120px auto;
   background-color: #f38705;
+  margin: 0 auto;
 }
 .testimonial h2 {
   color: #FFF;
@@ -105,6 +110,7 @@ nav .nav-logo {
 }
 .testimonial .carta p, .testimonial .map p, .testimonial .formulario p, .testimonial .title h1 p, .title .testimonial h1 p {
   padding: 20px;
+  text-align: justify;
 }
 .testimonial .avatar img {
   margin-top: 20px;
@@ -172,6 +178,10 @@ nav .nav-logo {
   height: 200px;
   background-position: cover;
   background-size: cover;
+}
+
+span {
+  color: #f38705;
 }
 
 .about {
@@ -397,6 +407,10 @@ nav .nav-logo {
 }
 .input.input:hover {
   border: solid 2px #f06705;
+}
+.input.input:focus {
+  border: solid 2px #f06705;
+  outline: none;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,7 @@
+span {
+    color: color(primario);
+}
+
 .about {
     @include contenedor-orange;
     color: color('blanco');

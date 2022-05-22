@@ -128,6 +128,11 @@
     &.input:hover {
         border: solid 2px color('hover');
     }
+
+    &.input:focus {
+        border: solid 2px color('hover');
+        outline: none;
+    }
 }
 
 // Cards //

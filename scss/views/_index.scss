@@ -3,7 +3,12 @@
 }
 
 .experience {
-    @include contenedor
+    @include contenedor;
+
+    p {
+        text-align: left;
+        padding: 0 15px;
+    }
 }
 
 .banner {
@@ -13,6 +18,7 @@
 
 .testimonial {
     @include contenedor-orange;
+    margin: 0 auto;
 
     h2 {
         color: color('blanco');
@@ -28,6 +34,7 @@
 
         p {
             padding: 20px;
+            text-align: justify;
         }
     }
 
@@ -64,7 +71,9 @@
         opacity: 0%;
     }
 
-    @each $social in social1, social2, social3 {
+    @each $social in social1,
+    social2,
+    social3 {
         .#{$social}-img {
             width: $ancho * 2;
             height: $alto * 2;
