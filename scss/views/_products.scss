@@ -1,38 +1,30 @@
 .trending {
     @include contenedor;
-
     h1 {
         margin-bottom: 50px;
     }
-
     .carta {
         margin-bottom: 30px;
     }
 }
-
 .story {
     @include contenedor-orange;
     padding: 30px;
-
     h2 {
         padding: 20px;
     }
-
     p {
         padding: 20px;
         text-align: justify;
     }
-
     .story__phrase {
         letter-spacing: 5px;
         padding: 25px;
         text-align: center;
     }
 }
-
 .products {
     @include contenedor;
-
     .carta {
         margin-bottom: 30px;
     }

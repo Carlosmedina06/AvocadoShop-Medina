@@ -1,34 +1,27 @@
 span {
     color: color(primario);
 }
-
 .about {
     @include contenedor-orange;
     color: color('blanco');
     margin-bottom: 0;
 }
-
 .banner2 {
     @include banner(400px);
     background-image: url(../img/banneraboutus.jpg);
 }
-
 .thrid {
     @include contenedor;
-
     img {
         border: 1px solid rgba(0, 0, 255, .2);
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     }
-
     .thrid__contact {
         background-color: color('primario');
-
         p {
             color: color('blanco');
             padding: 10px;
             margin: 10px;
-
             a {
                 color: color('blanco');
             }

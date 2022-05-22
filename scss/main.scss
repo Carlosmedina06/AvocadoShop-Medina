@@ -5,20 +5,16 @@
         "./utilities/funtions",
 // Mixins
         "./utilities/mixins";
-
-
 //Base
 // Resets
 @import "./base/reset",
 // Fonts
         "./base/typo";
-
 //Layout
 //navbar
 @import "./layout/nav",
 // footer
         "./layout/footer";
-
 //views
 //index
 @import "./views/index",
@@ -30,8 +26,6 @@
         "./views/contacto",
 //Reserva
         "./views/reserva";
-
-
 //components
 //botones
 @import "./components/botones",

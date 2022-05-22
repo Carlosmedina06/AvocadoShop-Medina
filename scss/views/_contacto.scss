@@ -1,29 +1,22 @@
 .title {
     @include contenedor;
-
     h1 {
         @extend .carta;
         padding: 20px;
     }
-
     p {
         margin: 20px;
     }
 }
-
-
 .formulario {
     @extend .carta;
     padding: 20px;
 }
-
 .text-area {
     resize: none;
 }
-
 .map {
     @extend .carta;
-
     p {
         @include textCard;
     }

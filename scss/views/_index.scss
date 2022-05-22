@@ -1,43 +1,34 @@
 .principal {
     @include principal
 }
-
 .experience {
     @include contenedor;
-
     p {
         text-align: left;
         padding: 0 15px;
     }
 }
-
 .banner {
     @include banner;
     background-image: url(../img/bannerprincipal.jpg)
 }
-
 .testimonial {
     @include contenedor-orange;
     margin: 0 auto;
-
     h2 {
         color: color('blanco');
         margin: 50px auto;
     }
-
     .carta {
         max-width: 1000px;
-
         h3 {
             margin-top: 15px;
         }
-
         p {
             padding: 20px;
             text-align: justify;
         }
     }
-
     .avatar {
         img {
             margin-top: 20px;
@@ -46,17 +37,14 @@
             border-radius: 50%;
             border: solid 2px color('blanco');
         }
-
         p {
             color: color('blanco');
         }
     }
 }
-
 .social {
     @include contenedor;
     margin-top: 20px;
-
     h4 {
         color: color('blanco');
         background-color: color('primario');
@@ -64,13 +52,11 @@
         text-align: center;
         margin: 50px auto;
     }
-
     img {
         width: $ancho + 90;
         height: $alto + 90;
         opacity: 0%;
     }
-
     @each $social in social1,
     social2,
     social3 {
@@ -79,9 +65,7 @@
             height: $alto * 2;
             background-image: url('../img/#{$social}.jpg');
             transition: all 0.3s ease;
-
         }
-
         & .#{$social}-img:hover {
             background-image: url('../img/#{$social}.png');
             width: $ancho * 2;

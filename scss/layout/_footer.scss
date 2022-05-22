@@ -2,11 +2,9 @@
 .footer {
     background-color: color('negro');
     color: color('blanco');
-
     hr {
         border: 1px solid color('blanco');
     }
-
     a {
         padding: 0px 20px;
         margin: 0px auto;
@@ -14,5 +12,4 @@
         color: color('blanco');
         text-transform: uppercase;
     }
-
 }
